@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-gray-950 text-white font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  section {
+    @apply py-16 md:py-24 overflow-hidden relative;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 md:px-8;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-md font-medium transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-cyan-500 text-gray-900 hover:bg-cyan-400;
+  }
+  
+  .btn-outline {
+    @apply border border-cyan-500 text-cyan-400 hover:bg-cyan-500/10;
+  }
+  
+  .card {
+    @apply bg-gray-900 rounded-lg p-6 border border-cyan-800/20;
+  }
+  
+  .glow {
+    @apply relative;
+  }
+  
+  .glow::before {
+    content: '';
+    @apply absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg blur opacity-30 transition duration-1000 group-hover:opacity-70;
+  }
+  
+  .circuit-overlay {
+    @apply fixed inset-0 bg-[url('/circuit-pattern.svg')] bg-repeat opacity-5 z-0 pointer-events-none;
+  }
+
+  .digital-line {
+    @apply h-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent my-12 opacity-30;
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  .section-title {
+    @apply text-cyan-400 uppercase tracking-widest text-sm font-medium mb-2;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px -10px rgba(0, 255, 244, 0.3);
+  }
+  to {
+    box-shadow: 0 0 20px 5px rgba(0, 255, 244, 0.5);
+  }
+}
+
+.clip-path-slant {
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+.clip-path-arrow {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}

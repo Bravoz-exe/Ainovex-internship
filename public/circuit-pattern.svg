@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <g fill="none" stroke="#0FF4F4" stroke-width="1" opacity="0.3">
+    <!-- Horizontal lines -->
+    <path d="M0,100 L800,100" />
+    <path d="M0,200 L800,200" />
+    <path d="M0,300 L800,300" />
+    <path d="M0,400 L800,400" />
+    <path d="M0,500 L800,500" />
+    <path d="M0,600 L800,600" />
+    <path d="M0,700 L800,700" />
+    
+    <!-- Vertical lines -->
+    <path d="M100,0 L100,800" />
+    <path d="M200,0 L200,800" />
+    <path d="M300,0 L300,800" />
+    <path d="M400,0 L400,800" />
+    <path d="M500,0 L500,800" />
+    <path d="M600,0 L600,800" />
+    <path d="M700,0 L700,800" />
+    
+    <!-- Connection nodes -->
+    <circle cx="100" cy="100" r="4" fill="#0FF4F4" />
+    <circle cx="200" cy="100" r="4" fill="#0FF4F4" />
+    <circle cx="300" cy="100" r="4" fill="#0FF4F4" />
+    <circle cx="400" cy="100" r="4" fill="#0FF4F4" />
+    <circle cx="500" cy="100" r="4" fill="#0FF4F4" />
+    <circle cx="600" cy="100" r="4" fill="#0FF4F4" />
+    <circle cx="700" cy="100" r="4" fill="#0FF4F4" />
+    
+    <circle cx="100" cy="200" r="4" fill="#0FF4F4" />
+    <circle cx="200" cy="200" r="4" fill="#0FF4F4" />
+    <circle cx="300" cy="200" r="4" fill="#0FF4F4" />
+    <circle cx="400" cy="200" r="4" fill="#0FF4F4" />
+    <circle cx="500" cy="200" r="4" fill="#0FF4F4" />
+    <circle cx="600" cy="200" r="4" fill="#0FF4F4" />
+    <circle cx="700" cy="200" r="4" fill="#0FF4F4" />
+    
+    <circle cx="100" cy="300" r="4" fill="#0FF4F4" />
+    <circle cx="200" cy="300" r="4" fill="#0FF4F4" />
+    <circle cx="300" cy="300" r="4" fill="#0FF4F4" />
+    <circle cx="400" cy="300" r="4" fill="#0FF4F4" />
+    <circle cx="500" cy="300" r="4" fill="#0FF4F4" />
+    <circle cx="600" cy="300" r="4" fill="#0FF4F4" />
+    <circle cx="700" cy="300" r="4" fill="#0FF4F4" />
+    
+    <circle cx="100" cy="400" r="4" fill="#0FF4F4" />
+    <circle cx="200" cy="400" r="4" fill="#0FF4F4" />
+    <circle cx="300" cy="400" r="4" fill="#0FF4F4" />
+    <circle cx="400" cy="400" r="4" fill="#0FF4F4" />
+    <circle cx="500" cy="400" r="4" fill="#0FF4F4" />
+    <circle cx="600" cy="400" r="4" fill="#0FF4F4" />
+    <circle cx="700" cy="400" r="4" fill="#0FF4F4" />
+    
+    <circle cx="100" cy="500" r="4" fill="#0FF4F4" />
+    <circle cx="200" cy="500" r="4" fill="#0FF4F4" />
+    <circle cx="300" cy="500" r="4" fill="#0FF4F4" />
+    <circle cx="400" cy="500" r="4" fill="#0FF4F4" />
+    <circle cx="500" cy="500" r="4" fill="#0FF4F4" />
+    <circle cx="600" cy="500" r="4" fill="#0FF4F4" />
+    <circle cx="700" cy="500" r="4" fill="#0FF4F4" />
+    
+    <circle cx="100" cy="600" r="4" fill="#0FF4F4" />
+    <circle cx="200" cy="600" r="4" fill="#0FF4F4" />
+    <circle cx="300" cy="600" r="4" fill="#0FF4F4" />
+    <circle cx="400" cy="600" r="4" fill="#0FF4F4" />
+    <circle cx="500" cy="600" r="4" fill="#0FF4F4" />
+    <circle cx="600" cy="600" r="4" fill="#0FF4F4" />
+    <circle cx="700" cy="600" r="4" fill="#0FF4F4" />
+    
+    <circle cx="100" cy="700" r="4" fill="#0FF4F4" />
+    <circle cx="200" cy="700" r="4" fill="#0FF4F4" />
+    <circle cx="300" cy="700" r="4" fill="#0FF4F4" />
+    <circle cx="400" cy="700" r="4" fill="#0FF4F4" />
+    <circle cx="500" cy="700" r="4" fill="#0FF4F4" />
+    <circle cx="600" cy="700" r="4" fill="#0FF4F4" />
+    <circle cx="700" cy="700" r="4" fill="#0FF4F4" />
+    
+    <!-- Circuit paths -->
+    <path d="M100,100 C150,50 250,50 300,100" />
+    <path d="M300,100 L300,200 C300,250 350,250 400,250 L500,250 C550,250 550,300 550,300 L550,400" />
+    <path d="M200,100 L200,300 C200,350 250,350 300,350 L400,350" />
+    <path d="M500,100 C550,150 550,250 500,300" />
+    <path d="M600,200 C650,250 650,350 600,400" />
+    <path d="M400,400 C450,450 550,450 600,400" />
+    <path d="M200,500 C250,550 350,550 400,500" />
+    <path d="M400,600 C450,650 550,650 600,600 L600,500" />
+    <path d="M300,700 C350,650 450,650 500,700" />
+  </g>
+</svg>
